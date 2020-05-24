@@ -1,0 +1,1062 @@
+{
+  "intents": [
+    {
+      "intent": "requirement",
+      "examples": [
+        {
+          "text": "2."
+        },
+        {
+          "text": "required items"
+        },
+        {
+          "text": "I need water"
+        },
+        {
+          "text": "I need food"
+        },
+        {
+          "text": "fulfill requirement"
+        },
+        {
+          "text": "I want medicines"
+        },
+        {
+          "text": "2"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "goodbye",
+      "examples": [
+        {
+          "text": "bye"
+        },
+        {
+          "text": "good bye"
+        },
+        {
+          "text": "see ya"
+        },
+        {
+          "text": "see u"
+        },
+        {
+          "text": "talk to you soon"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "test",
+      "examples": [
+        {
+          "text": "testing centers in india"
+        },
+        {
+          "text": "I need test centers information"
+        },
+        {
+          "text": "I want the details of test centers"
+        },
+        {
+          "text": "list of testing centers"
+        },
+        {
+          "text": "4"
+        },
+        {
+          "text": "list of test centers"
+        },
+        {
+          "text": "4."
+        },
+        {
+          "text": "information about testing centers"
+        },
+        {
+          "text": "testing centers near me"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "thanku",
+      "examples": [
+        {
+          "text": "thanks"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "thanx"
+        },
+        {
+          "text": "thanku"
+        },
+        {
+          "text": "cheers"
+        },
+        {
+          "text": "appritiate it"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Helpdesk",
+      "examples": [
+        {
+          "text": "COVID-19 helpline"
+        },
+        {
+          "text": "3"
+        },
+        {
+          "text": "3."
+        },
+        {
+          "text": "help desk"
+        },
+        {
+          "text": "Give me help desk information"
+        },
+        {
+          "text": "COVID-19 help desk"
+        },
+        {
+          "text": "Corona help desk"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Probability",
+      "examples": [
+        {
+          "text": "1"
+        },
+        {
+          "text": "1."
+        },
+        {
+          "text": "COVID-19 detector"
+        },
+        {
+          "text": "check corona Virus"
+        },
+        {
+          "text": "check COVID-19"
+        },
+        {
+          "text": "use probability detector"
+        },
+        {
+          "text": "I want to check the probability of covid-19"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "greeting",
+      "examples": [
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "good evening"
+        },
+        {
+          "text": "good morning"
+        },
+        {
+          "text": "hey"
+        },
+        {
+          "text": "hi"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "sys-person",
+      "values": []
+    },
+    {
+      "entity": "location",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "West Bengal",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Uttar Pradesh",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Uttarakhand",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Jammu and Kashmir",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Andaman & Nicobar islands",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Andhra Pradesh",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Assam",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bihar",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Chandigarh",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Chhattisgarh",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Delhi-NCR",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Gujarat",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Haryana",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Kerala",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Himachal Pradesh",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Jharkhand",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Karnataka",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Madhya Pradesh",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Meghalaya",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Maharashtra",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Manipur",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tripura",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Odisha",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Puducherry",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Punjab",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Rajasthan",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tamil Nadu",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Telangana",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-location",
+      "values": []
+    },
+    {
+      "entity": "sys-number",
+      "values": []
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "CentreNf",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": " I don't get the name of your state can you please rewrite ."
+              },
+              {
+                "text": "Please give your correct state name."
+              },
+              {
+                "text": "Unfortunately , I didn't get what your State."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1585637443440",
+      "conditions": "@sys-location",
+      "dialog_node": "node_8_1585640381612",
+      "previous_sibling": "node_1_1585637666902"
+    },
+    {
+      "type": "standard",
+      "title": "centers",
+      "parent": "node_2_1585637443440",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@location",
+      "dialog_node": "node_1_1585637666902"
+    },
+    {
+      "type": "standard",
+      "title": "goodbye",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nice talking to you today."
+              },
+              {
+                "text": "Have a nice day."
+              },
+              {
+                "text": "Good Bye"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_4_1585476581661",
+      "conditions": "#goodbye",
+      "dialog_node": "node_2_1585477323973",
+      "previous_sibling": "node_10_1585476930489"
+    },
+    {
+      "type": "standard",
+      "title": "thankyou",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You're welcome. Please let me know if you need anything else."
+              },
+              {
+                "text": "My pleasure."
+              },
+              {
+                "text": "No problem. Let me know if there is anything else I can help with."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_4_1585476581661",
+      "conditions": "#thanku",
+      "dialog_node": "node_10_1585476930489",
+      "previous_sibling": "node_6_1585476640179"
+    },
+    {
+      "type": "standard",
+      "title": "Greeting",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "• Hi there. How can I help you?"
+              },
+              {
+                "text": "Hello. How may I assist you today?"
+              },
+              {
+                "text": "• Hi. What can I help you with?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_4_1585476581661",
+      "conditions": "#greeting",
+      "dialog_node": "node_6_1585476640179"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Testing centers in West Bengal are: 1.National Institute of Cholera and Enteric Diseases, Kolkata 2. IPGMER, Kolkata"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1585637666902",
+      "conditions": "@location:(West Bengal)",
+      "dialog_node": "response_10_1585639841561",
+      "previous_sibling": "response_10_1585639838473"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Testing center in Jharkhand is: 1. MGM Medical College, Jamshedpur"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1585637666902",
+      "conditions": "@location:Jharkhand",
+      "dialog_node": "response_4_1585638302501",
+      "previous_sibling": "response_7_1585638283807"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Testing centers in Tamil Nadu are: 1.King’s Institute of Preventive Medicine & Research, Chennai 2. Government Medical College, Theni "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1585637666902",
+      "conditions": "@location:(Tamil Nadu)",
+      "dialog_node": "response_1_1585639652463",
+      "previous_sibling": "response_6_1585639632836"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Testing center in Uttarakhand is :  King’s George Medical University, Lucknow 48. Institute of Medical Sciences, Banaras Hindu University, Varanasi 49. Jawaharlal Nehru Medical College, Aligarh"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1585637666902",
+      "conditions": "@location:Uttarakhand",
+      "dialog_node": "response_2_1585639843993",
+      "previous_sibling": "response_10_1585639841561"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Testing center in Meghalaya is :NEIGRI of Health and Medical Sciences, Shillong, Meghalaya"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1585637666902",
+      "conditions": "@location:Meghalaya",
+      "dialog_node": "response_8_1585638365233",
+      "previous_sibling": "response_10_1585638351876"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Testing center in Chhattisgarh is : All India Institute Medical Sciences, Raipur"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1585637666902",
+      "conditions": "@location:Chhattisgarh",
+      "dialog_node": "response_7_1585638217674",
+      "previous_sibling": "response_6_1585638142527"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Testing centers in Rajasthan are : 1. Sawai Man Singh, Jaipur 2. Dr. S.N Medical College, Jodhpur 3. Jhalawar Medical College, Jhalawar, Rajasthan 4. SP Med. College, Bikaner, Rajasthan "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1585637666902",
+      "conditions": "@location:Rajasthan",
+      "dialog_node": "response_6_1585639632836",
+      "previous_sibling": "response_10_1585639470447"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Testing centers in Haryana are: 1.  Pt. B.D. Sharma Post Graduate Inst. of Med. Sciences, Rohtak, Haryana 2. BPS Govt Medical College, Sonipat"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1585637666902",
+      "conditions": "@location:Haryana",
+      "dialog_node": "response_8_1585638258047",
+      "previous_sibling": "response_1_1585638246174"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Testing centers in ttar Pradesh are: 1.  King’s George Medical University, Lucknow 2. Institute of Medical Sciences, Banaras Hindu University, Varanasi 3. Jawaharlal Nehru Medical College, Aligarh"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1585637666902",
+      "conditions": "@location:(Uttar Pradesh)",
+      "dialog_node": "response_10_1585639838473",
+      "previous_sibling": "response_6_1585639836175"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Testing center in Telangana is :  Gandhi Medical College, Secunderabad"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1585637666902",
+      "conditions": "@location:Telangana",
+      "dialog_node": "response_6_1585639836175",
+      "previous_sibling": "response_1_1585639652463"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Testing center in Puducherry is :Jawaharlal Institute of Postgraduate Medical Education & Research, Puducherry"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1585637666902",
+      "conditions": "@location:Puducherry",
+      "dialog_node": "response_2_1585639467265",
+      "previous_sibling": "response_1_1585639464550"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Testing center in Tripura is:  Government Medical College, Agartala"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1585637666902",
+      "conditions": "@location:Tripura",
+      "dialog_node": "response_8_1585639462056",
+      "previous_sibling": "response_9_1585639458146"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Testing centers in Jammu and Kashmir are: 1. Sher‐e‐Kashmir Institute of Medical Sciences, Srinagar 2. Government Medical College, Jammu"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1585637666902",
+      "conditions": "@location:(Jammu and Kashmir)",
+      "dialog_node": "response_10_1585639846568",
+      "previous_sibling": "response_2_1585639843993"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Testing centers in Himachal Pradesh are: 1. Indira Gandhi Medical College, Shimla, Himachal Pradesh 2. Dr.Rajendra Prasad Govt. Med. College, Kangra, Tanda, HP"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1585637666902",
+      "conditions": "@location:(Himachal Pradesh)",
+      "dialog_node": "response_7_1585638283807",
+      "previous_sibling": "response_3_1585638268749"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Testing centers in Madhya Pradesh are: 1.All India Institute Medical Sciences, Bhopal2. National Institute of Research in Tribal Health (NIRTH), Jabalpur"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1585637666902",
+      "conditions": "@location:(Madhya Pradesh)",
+      "dialog_node": "response_10_1585638351876",
+      "previous_sibling": "response_8_1585638307543"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Testing centers in Assam are: 1. Gauhati Medical College, Guwahati 2. Regional Medical Research Center, Dibrugarh"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1585637666902",
+      "conditions": "@location:Assam",
+      "dialog_node": "response_3_1585637826351",
+      "previous_sibling": "response_3_1585637757696"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Testing centers in Kerala are: 1. National Institute of Virology Field Unit, Kerala 2. Govt. Medical College, Thriuvananthapuram, Kerala 3.  Govt. Medical College, Kozhikhode, Kerala"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1585637666902",
+      "conditions": "@location:Kerala",
+      "dialog_node": "response_3_1585638268749",
+      "previous_sibling": "response_8_1585638258047"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Testing centers in Andaman & Nicobar islands are: 1. GMC, Anantapur, AP 2. Regional Medical Research Centre, Port Blair, Andaman and Nicobar"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1585637666902",
+      "conditions": "@location:(Andaman & Nicobar islands)",
+      "dialog_node": "response_3_1585637757696",
+      "previous_sibling": "response_1_1585637691713"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Testing centers in Delhi-NCR are: 1. All India Institute Medical Sciences, Delhi 2.National Centre for Disease Control, Delhi"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1585637666902",
+      "conditions": "@location:Delhi-NCR",
+      "dialog_node": "response_7_1585638232851",
+      "previous_sibling": "response_7_1585638217674"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Testing centers in Karnataka are: 1.Bangalore Medical College & Research Institute, Bangalore 2. National Institute of Virology Field Unit Bangalore 3. Mysore Medical College & Research Institute, Mysore 4. Hassan Inst. of Med. Sciences, Hassan, Karnataka 5. Shimoga Inst. of Med. Sciences, Shivamogga, Karnataka"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1585637666902",
+      "conditions": "@location:Karnataka",
+      "dialog_node": "response_10_1585638305001",
+      "previous_sibling": "response_4_1585638302501"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Testing centers in Gujarat are: 1. BJ Medical College, Ahmedabad 2.  M.P.Shah Government Medical College, Jamnagar "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1585637666902",
+      "conditions": "@location:Gujarat",
+      "dialog_node": "response_1_1585638246174",
+      "previous_sibling": "response_7_1585638232851"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Testing center in Odisha is :Regional Medical Research Center, Bhubaneswar"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1585637666902",
+      "conditions": "@location:Odisha",
+      "dialog_node": "response_1_1585639464550",
+      "previous_sibling": "response_8_1585639462056"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Testing center in Bihar is : Rajendra Memorial Research Institute of Medical Sciences, Patna "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1585637666902",
+      "conditions": "@location:Bihar",
+      "dialog_node": "response_2_1585637981755",
+      "previous_sibling": "response_3_1585637826351"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Testing center in Manipur is: J N Inst. of Med. Sciences Hospital, Imphal‐East, Manipur"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1585637666902",
+      "conditions": "@location:Manipur",
+      "dialog_node": "response_9_1585639458146",
+      "previous_sibling": "response_8_1585638365233"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Testing centers in Punjab are: 1. Government Medical College, Patiala, Punjab 2. Government Medical College, Amritsar "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1585637666902",
+      "conditions": "@location:Punjab",
+      "dialog_node": "response_10_1585639470447",
+      "previous_sibling": "response_2_1585639467265"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Testing centers in Maharashtra are: 1. Indira Gandhi Government Medical College, Nagpur 2. Kasturba Hospital for Infectious Diseases, Mumbai"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1585637666902",
+      "conditions": "@location:Maharashtra",
+      "dialog_node": "response_8_1585638307543",
+      "previous_sibling": "response_10_1585638305001"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Testing center is Chandigarh is :Post Graduate Institute of Medical Education & Research, Chandigarh"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1585637666902",
+      "conditions": "@location:Chandigarh",
+      "dialog_node": "response_6_1585638142527",
+      "previous_sibling": "response_2_1585637981755"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Testing centers in Andhra Pradesh are: 1. Sri Venkateswara Institute of Medical Sciences, Tirupati 2. Andhra Medical College, Visakhapatnam, Andhra Pradesh"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1585637666902",
+      "conditions": "@location:(Andhra Pradesh)",
+      "dialog_node": "response_1_1585637691713"
+    },
+    {
+      "type": "standard",
+      "title": "probability",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You can check for COVID-19 symptoms on <a href =\"https://familydoctor.org/your-health-resources/health-tools/symptom-checker/\">  Probability Detector</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Probability",
+      "dialog_node": "node_5_1585477439906",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "folder",
+      "title": "Chitchat",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1585476581661",
+      "previous_sibling": "node_3_1585478419893"
+    },
+    {
+      "type": "standard",
+      "title": "Helpdesk",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Message \"Hi\" to<a href = \"www.whatsapp.com\"> +919013151515 </a>to contact to MyGov Corona Helpdesk on WhatsApp for all queries."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Helpdesk",
+      "dialog_node": "node_3_1585478419893",
+      "previous_sibling": "node_2_1585637443440"
+    },
+    {
+      "type": "standard",
+      "title": "Test",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sure , Please write your state name?"
+              },
+              {
+                "text": "What is your state name?"
+              },
+              {
+                "text": "In which state you are?"
+              },
+              {
+                "text": "May I know your State name."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#test",
+      "dialog_node": "node_2_1585637443440",
+      "previous_sibling": "node_7_1585635622347"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "It looks like we are not quite getting each other today. Would you like to talk to a human agent instead? If so, please contact us at 555-123-4567 or email us at support\\@example.org.\n"
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_4_1585476581661",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "requirements",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "For meeting your daily needs you can visit our <a href =\"\">Website</a> and fill the form."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#requirement",
+      "dialog_node": "node_7_1585635622347",
+      "previous_sibling": "node_5_1585477439906"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello! My name is  Auxilia and I'm a chat bot here to assist you with  following :\n1.  COVID-19 probability detector\n2.Fulfilling your daily requirements \n3.Corona help desk \n4.Testing centers in India.\nWrite the sequence number to explore."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "COVID-19",
+  "language": "en",
+  "description": ""
+}
